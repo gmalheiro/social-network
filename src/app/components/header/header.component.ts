@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css','../../../../node_modules/bootstrap/dist/css/bootstrap.min.css']
 })
 export class HeaderComponent {
-
+  logInConsole(){
+    console.log('Hey');
+  }
 }
