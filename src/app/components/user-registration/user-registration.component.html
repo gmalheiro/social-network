@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-10">
+            <app-user-edit (userAdded)="onUserAdded($event)" ></app-user-edit>
+          <hr>
+          <ul class="list-group">
+            <a
+              class="list-group-item"
+              style="cursor: pointer"
+              *ngFor="let user of users"
+             >
+              Name:{{ user.name }} <br> Email:({{ user.email }})
+            </a>
+          </ul>
+        </div>
+      </div>
+    
+</div>

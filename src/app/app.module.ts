@@ -6,12 +6,16 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HeroBanner } from './components/hero-banner/hero-banner.component';
+import { UserRegistrationComponent } from './components/user-registration/user-registration.component';
+import { UserEditComponent } from './components/user-registration/user-edit/user-edit.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    HeroBanner
+    HeroBanner,
+    UserRegistrationComponent,
+    UserEditComponent
   ],
   imports: [
     BrowserModule,
