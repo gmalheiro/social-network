@@ -1,1 +1,2 @@
-<app-header></app-header>
+<app-header  (featureSelected)="feature=$event" ></app-header>
+<app-hero-banner *ngIf="!feature" ></app-hero-banner>

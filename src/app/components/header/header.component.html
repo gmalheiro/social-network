@@ -11,7 +11,7 @@
                 Benefits
               </a>
               <div ngbDropdownMenu class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a ngbDropdownItem class="dropdown-item"  style="cursor: pointer;" (click)="logInConsole()">Add user</a>
+                <a ngbDropdownItem (click)="onFeatureSelected('hey')" class="dropdown-item" style="cursor: pointer;" >Add user</a>
                 <a ngbDropdownItem class="dropdown-item" href="#">List users</a>
               </div>
             </li>
@@ -19,5 +19,3 @@
         </div>
       </div>
   </nav>
-
-  <app-hero-banner></app-hero-banner>
