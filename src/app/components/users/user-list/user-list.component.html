@@ -1,1 +1,15 @@
-<p>user-list works!</p>
+<div class="row">
+    <div class="col-xs-12">
+      <button class="btn btn-success">New User</button>
+    </div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-xs-12">
+      <app-user
+      *ngFor="let user of users"
+       [userElement]="user"
+       (userSelected)="onUserSelected(user)"
+       style="margin:5px;"></app-user>
+    </div>
+  </div>

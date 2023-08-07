@@ -1,4 +1,4 @@
-  <nav class="navbar navbar-expand-lg navbar-dark bg-secondary mb-3" style="background-color: #26ff64;" >
+  <nav class="navbar navbar-default"  >
       <div class="container">
         <a class="navbar-brand" href="#">People network</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -12,7 +12,7 @@
               </a>
               <div ngbDropdownMenu class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <a ngbDropdownItem (click)="onFeatureSelected('addUser')" class="dropdown-item" style="cursor: pointer;" >Add user</a>
-                <a ngbDropdownItem class="dropdown-item" href="#">List users</a>
+                <a style="margin-left:5px ;" ngbDropdownItem class="dropdown-item" (click)="onFeatureSelected('listUsers')" >List users</a>
               </div>
             </li>
           </ul>

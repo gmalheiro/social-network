@@ -12,6 +12,7 @@ import { UsersComponent } from './components/users/users.component';
 
 import { UserListComponent } from './components/users/user-list/user-list.component';
 import { UserDetailComponent } from './components/users/user-detail/user-detail.component';
+import { UserComponent } from './components/users/user-list/user/user.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { UserDetailComponent } from './components/users/user-detail/user-detail.
     UserEditComponent,
     UsersComponent,
     UserDetailComponent,
-    UserListComponent
+    UserListComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,
