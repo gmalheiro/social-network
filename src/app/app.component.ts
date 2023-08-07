@@ -6,10 +6,10 @@ import { Component} from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent  {
-  feature:string = '';
+  loadedFeature:string = '';
 
-  showPanel() : boolean {
-    return this.feature != null ? true : false;
+  onNavigate(feature:string){
+    this.loadedFeature = feature 
   }
 
 }
