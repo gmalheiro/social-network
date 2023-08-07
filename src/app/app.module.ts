@@ -8,6 +8,10 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HeroBanner } from './components/hero-banner/hero-banner.component';
 import { UserRegistrationComponent } from './components/user-registration/user-registration.component';
 import { UserEditComponent } from './components/user-registration/user-edit/user-edit.component';
+import { UsersComponent } from './components/users/users.component';
+
+import { UserListComponent } from './components/users/user-list/user-list.component';
+import { UserDetailComponent } from './components/users/user-detail/user-detail.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +19,10 @@ import { UserEditComponent } from './components/user-registration/user-edit/user
     HeaderComponent,
     HeroBanner,
     UserRegistrationComponent,
-    UserEditComponent
+    UserEditComponent,
+    UsersComponent,
+    UserDetailComponent,
+    UserListComponent
   ],
   imports: [
     BrowserModule,
